@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Swagat Best Family Restaurant & Dhaba</title>
+  <meta name="description" content="Swagat Best Family Restaurant & Dhaba in Bhalki – delicious veg & non-veg food, family-friendly ambience." />
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #fafafa;
+  color: #333;
+}
+header {
+  background: linear-gradient(135deg, #7a0000, #b11212);
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  font-size: 44px;
+  letter-spacing: 1.5px;
+  background: linear-gradient(90deg, #ffd6a5, #ffffff, #ffd6a5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header p { margin-top: 8px; opacity: 0.9; }
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(92, 0, 0, 0.95);
+  backdrop-filter: blur(6px);
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 14px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  position: relative;
+}
+nav a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: #ffd6a5;
+  left: 0;
+  bottom: -6px;
+  transition: 0.3s;
+}
+nav a:hover::after {
+  width: 100%;
+}
+
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('photo1.jpg') center/cover no-repeat;
+  padding: 120px 20px;
+  text-align: center;
+  color: #fff;
+}
+.hero h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 54px;
+  margin-bottom: 12px;
+  letter-spacing: 1px;
+}
+.hero p {
+  font-size: 18px;
+  opacity: 0.9;
+  max-width: 650px;
+  margin: auto;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 60px 20px;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #8b0000;
+  font-size: 32px;
+}
+.menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+.card {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  padding: 25px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+}
+.card h3 { margin-top: 0; color: #8b0000; }
+.card img { border-radius: 12px; }
+.info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+.btn {
+  display: inline-block;
+  background: #8b0000;
+  color: #fff;
+  padding: 14px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  margin-top: 15px;
+  transition: background 0.3s, transform 0.2s;
+}
+.btn:hover {
+  background: #5c0000;
+  transform: scale(1.05);
+}
+footer {
+  background: #1f1f1f;
+  color: #ccc;
+  text-align: center;
+  padding: 30px 20px;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Swagat Best Family Restaurant & Dhaba</h1>
+  <p>Delicious Food • Family Friendly • Bhalki</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#menu">Menu</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#reviews">Reviews</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+  <h2>
+    Experience the Taste of <span style="color:#ffd6a5;">Tradition</span>
+  </h2>
+  <p>
+    Where families gather, flavors shine, and memories are made
+  </p>
+  <a href="#contact" class="btn">Visit Swagat</a>
+</section>
+
+
+<section id="about" class="container">
+  <h2 class="section-title">About Us</h2>
+
+  <div class="card">
+    <p>
+      <strong>Swagat Best Family Restaurant & Dhaba</strong> is more than just a place to eat —
+      it’s a place where families, friends, and travelers come together to enjoy delicious food
+      and warm hospitality.
+    </p>
+
+    <p>
+      Located in <strong>Bhalki, Karnataka</strong>, Swagat has become a trusted destination for
+      people who love authentic taste, generous portions, and a clean, comfortable dining experience.
+      We proudly serve both vegetarian and non-vegetarian dishes prepared using fresh ingredients
+      and traditional recipes.
+    </p>
+
+    <p>
+      Our restaurant is specially designed to offer a peaceful, family-friendly atmosphere,
+      making it an ideal stop for families, groups, and highway travelers looking for quality food
+      and quick service.
+    </p>
+
+    <p>
+      At Swagat, we believe that good food creates happy memories. Every guest is welcomed with
+      care, respect, and a promise of great taste.
+    </p>
+
+    <div style="margin-top:25px; display:flex; flex-wrap:wrap; gap:12px; justify-content:center;">
+      <span style="background:#8b0000;color:#fff;padding:10px 18px;border-radius:25px;font-size:14px;">🍽️ Quality Food</span>
+      <span style="background:#8b0000;color:#fff;padding:10px 18px;border-radius:25px;font-size:14px;">👨‍👩‍👧‍👦 Family Friendly</span>
+      <span style="background:#8b0000;color:#fff;padding:10px 18px;border-radius:25px;font-size:14px;">🚗 Highway Stop</span>
+      <span style="background:#8b0000;color:#fff;padding:10px 18px;border-radius:25px;font-size:14px;">❤️ Warm Hospitality</span>
+    </div>
+  </div>
+</section>
+
+
+<section id="menu" class="container">
+  <h2 class="section-title">Our Popular Menu</h2>
+  <div class="menu">
+    <div class="card">
+      <h3>Veg Dishes</h3>
+      <ul>
+        <li>Paneer Butter Masala</li>
+        <li>Veg Kolhapuri</li>
+        <li>Dal Tadka</li>
+        <li>Tandoori Roti / Naan</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Non‑Veg Dishes</h3>
+      <ul>
+        <li>Chicken Curry</li>
+        <li>Chicken Biryani</li>
+        <li>Mutton Masala</li>
+        <li>Egg Curry</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Specials</h3>
+      <ul>
+        <li>Swagat Special Thali</li>
+        <li>Tandoori Chicken</li>
+        <li>Family Combo Meals</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="gallery" class="container">
+  <h2 class="section-title">Photo Gallery</h2>
+  <p style="text-align:center">Photos from our restaurant & food (Google Maps)</p>
+  <div class="menu">
+    <div class="card"><img src="photo1.jpg" alt="Restaurant Photo" style="width:100%;border-radius:8px"></div>
+    <div class="card"><img src="photo2.jpg" alt="Food Photo" style="width:100%;border-radius:8px"></div>
+    <div class="card"><img src="photo3.jpg" alt="Food Photo" style="width:100%;border-radius:8px"></div>
+  </div>
+</section>
+
+<section id="reviews" class="container">
+  <h2 class="section-title">Google Reviews</h2>
+  <div class="card" style="text-align:center">
+    <h3>⭐ 4.4 / 5 Rating</h3>
+    <p>Loved by families & travelers in Bhalki</p>
+    <a class="btn" target="_blank" href="https://www.google.com/maps">Read Reviews on Google</a>
+  </div>
+</section>
+
+<section id="map" class="container">
+  <h2 class="section-title">Find Us on Map</h2>
+  <div class="card">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7588.0903238776755!2d77.2110199!3d18.0231076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcee1006c1e2359%3A0xe333e8c479a9d3e9!2sSwagat%20Best%20Family%20Restaurant%20and%20Dhaba!5e0!3m2!1sen!2sin!4v1769751018422!5m2!1sen!2sin" width="100%" height="350" style="border:0;border-radius:8px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</section>
+
+<section id="contact" class="container"> class="container">
+  <h2 class="section-title">Contact & Location</h2>
+  <div class="info">
+    <div class="card">
+      <h3>Address</h3>
+      <p>26F6+7G, Bhalki,<br>Karnataka 585413</p>
+      <p><strong>Timings:</strong> 10:00 AM – 11:00 PM</p>
+    </div>
+    <div class="card">
+      <h3>Call / Order on WhatsApp</h3>
+      <p>📞 +91-9900893315</p>
+      <a class="btn" href="https://wa.me/919900893315" target="_blank">WhatsApp Order Now</a>
+      <br><br>
+      <a class="btn" href="https://www.google.com/maps" target="_blank">Open in Google Maps</a></h3>
+      <p>📞 +91-9900893315</p>
+      <a class="btn" href="https://www.google.com/maps" target="_blank">Open in Google Maps</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Swagat Best Family Restaurant & Dhaba | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
